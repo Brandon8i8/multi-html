@@ -1,0 +1,39 @@
+
+* {
+ font-family: sans-serif;
+ background-color: black;
+ color: white;
+}
+
+#HomePage {
+ text-align: center;
+ margin: 25%;
+}
+.button {
+ display: inline-block;
+ padding: 15px 25px;
+ background-color:black;
+ border: 2px solid white;
+ font-weight: normal;
+ border-radius: 12px;
+ text-decoration: none;
+ color: white;
+ transition-duration: 0.3s;
+ font-size: 24px;
+}
+
+.button:visited {
+ text-decoration: none;
+}
+
+
+.button:hover {
+ background-color: white;
+ color: black;
+ box-shadow: grey 3px 3px;
+}
+
+.button:active {
+ box-shadow: 1px 1px darkgrey;
+ transform: translateY(4px);
+}
